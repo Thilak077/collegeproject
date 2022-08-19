@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.navbar-nav{
+  
+    text-align: center;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons img{
+    padding-bottom: 20px;
+}
+.icon1,.icon2,.icon3,.icon4{
+    float: left;
+    width: 25%;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    text-align: center;
+}
+.icons p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.icon2,.icon4{
+    background:lightgrey;
+    border-radius: 10px;}
+
+.clear{
+    clear: both;
+}
+/*  aboutus */
+
+.align{
+    text-align: center;
+}
+.align h1{
+ margin-bottom: 20px;
+ margin-top: 20px;
+ font-weight: 300;
+ font-family: 'Courier New', Courier, monospace;
+}
+.about{
+    padding-left: 30px;
+    width: 60%;
+    box-sizing: border-box;
+    float: left ;
+    margin-top: 20px;
+}
+
+.sideimg1{
+    float: right;
+    box-sizing: border-box;
+    width: 38%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.heading{
+    margin:10px 0;
+}
+.list-item{
+    margin-top: 10px;
+}
+/* content*/
+.down-list{
+    margin-top: 40px;
+}
+.sideimg2{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.sidebar{
+    float: right;
+    width: 56%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.sidebar h3{
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 10px;
+    background: lightgrey;
+    padding: 10px;
+
+}
+
+.ic{
+    float: left;
+    width: 30%;
+    padding-left: 90px;
+    box-sizing: border-box;
+}
+
+.ic img{
+    padding-right: 10px;
+    font-size: 10px;
+    
+}
+
+footer p{
+    float: right;
+    text-align: center;
+    box-sizing: border-box; 
+    padding-top: 5px;
+    padding-right: 200px;
+    font-size: 20px;
+    width: 70%;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:910px) {
+    .sideimg1,.sideimg2{
+        display: none;
+    }
+   .about{
+    float: none;
+    margin-top: 3px;
+    width: 100%;
+    
+    font-size: 16px;}
+   
+    .align{
+text-align: center;
+    }
+    .sidebar{
+        float: none;
+        width: 100%;
+    }
+   }
+@media only screen and (max-width:800px){
+    .about{
+        margin-top: 30px;
+
+    }
+   .ic{
+    padding-left: 50px;
+   }
+   .icon1,.icon2,.icon3,.icon4{
+    height: 140px;
+   }
+}
+@media only screen and (max-width:750px){
+    .ic{
+        padding-left: 30px;
+    }
+ 
+    .icon1,.icon2,.icon3,.icon4{
+        float: none;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:680px){
+    .ic , footer p{
+        float:none;
+        width: 100%;
+        padding-right: 0;
+    }
+    .ic{
+        text-align: center;
+    }
+}
